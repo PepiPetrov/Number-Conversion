@@ -1,0 +1,15 @@
+p{
+    font-family: 'Lato', sans-serif;
+}
+.title {
+    text-align: center;
+}
+.primary-btn {
+    margin: auto;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: #ffa000;
+    color: #FFFFFF;
+    font-weight: 700;
+}

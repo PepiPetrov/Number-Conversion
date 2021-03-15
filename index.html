@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title style="text-align: center">Number Converter</title>
+    <script src="./converter.js"></script>
+    <style src="./style.css"></style>
+</head>
+<body style="background-color: #9ef008">
+    <label for="input" style="font-family:cursive">Base to convert from: </label>
+    <br>
+    <input type="text" id="baseInput">
+    <br>
+    <br>
+    <label for="input" style="font-family:cursive">Number to convert: </label>
+    <br>
+    <input type="text" id="input">
+    <br>
+    <br>
+    <label for="input" style="font-family:cursive">Base to convert to: </label>
+    <br>
+    <input type="text" id="base">
+    <br>
+    <br>
+    <label for="input" style="font-family:cursive">Result of the conversion: </label>
+    <br>
+    <input type="text" id="result" disabled style="font-size: xx-large;background-color: aquamarine;">
+    <br>
+    <br>
+    <button id="formatItBtn" onclick="convert()" class="primary-btn" style="font-family:cursive;background-color: #f1f503;font-weight:lighter;padding: 9px;">Convert</button>
+    <br>
+    <br>
+    <p style="font-family:cursive;background-color: aqua;">Note: for converting hexadecimal numbers to any other system use only lowercase letters.</p>
+</body>
+</html>
